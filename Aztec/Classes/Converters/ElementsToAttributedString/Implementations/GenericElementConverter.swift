@@ -24,6 +24,7 @@ class GenericElementConverter: ElementConverter {
     lazy var h4Formatter = HeaderFormatter(headerLevel: .h4)
     lazy var h5Formatter = HeaderFormatter(headerLevel: .h5)
     lazy var h6Formatter = HeaderFormatter(headerLevel: .h6)
+    
     lazy var italicFormatter = ItalicFormatter()
     lazy var linkFormatter = LinkFormatter()
     lazy var orderedListFormatter = TextListFormatter(style: .ordered, increaseDepth: true)
